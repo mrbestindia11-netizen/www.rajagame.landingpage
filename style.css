@@ -1,0 +1,133 @@
+/* BASE STYLES - NEW PREMIUM WHITE/GOLD */
+:root {
+    --color-white: #ffffff;
+    --color-gold: #FFC300; /* Deep Gold */
+    --color-blue: #0A1C4E; /* Deep Navy Blue for text */
+    --color-green: #38C700; /* Bright Green for CTA */
+    --color-red-light: #F05454;
+    --color-gray: #f9f9f9;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-gray);
+    color: var(--color-blue);
+    line-height: 1.6;
+}
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding: 0 15px;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: var(--color-blue);
+    margin-top: 10px;
+}
+/* HEADER - SLOT 1 */
+.hero-header {
+    background-color: var(--color-white);
+    padding: 20px 0;
+    border-bottom: 5px solid var(--color-gold);
+}
+.hero-header h1 {
+    font-size: 2.5em;
+    color: var(--color-gold);
+    text-shadow: 1px 1px var(--color-blue);
+    margin-bottom: 5px;
+}
+.bike-banner {
+    background-color: var(--color-gold);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: var(--color-blue);
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hero-img-container {
+    text-align: center; 
+    margin-top: 15px;
+}
+.hero-img-container img {
+    width: 100%; 
+    max-width: 600px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* MAIN CTA BUTTON - SLOT 2 */
+.cta-button-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    background-color: var(--color-blue); 
+    text-align: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+.cta-button-fixed a {
+    display: block;
+    background-color: var(--color-green); 
+    color: var(--color-white);
+    padding: 15px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+    border: 3px solid var(--color-gold);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* OFFER SECTIONS */
+.offer-section {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.offer-section h2 {
+    color: var(--color-blue);
+    border-bottom: 2px solid var(--color-gold);
+    padding-bottom: 10px;
+}
+.offer-img-full {
+    width: 95%;
+    max-width: 600px;
+    display: block;
+    margin: 15px auto;
+    border: 3px solid var(--color-gold);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* SLOT 5: FOOTER & SECURITY */
+.footer {
+    text-align: center;
+    padding: 25px 0 100px; 
+    font-size: 0.9em;
+    background-color: var(--color-gray);
+    color: var(--color-blue);
+}
+.security-notice {
+    background-color: var(--color-red-light); 
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: var(--color-white);
+    border-radius: 5px;
+}
+.footer a {
+    color: var(--color-blue);
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
